@@ -82,7 +82,7 @@ public class OrderRestController {
 	}
 	
 	
-	@GetMapping(
+	@PutMapping(
 			path="/order/validate",
 			produces= {MediaType.APPLICATION_JSON_VALUE})
 	public ResponseEntity<JSONObject> validateOrder(
